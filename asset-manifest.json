@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PokemonSoundboard/static/css/main.9bd6e4c1.chunk.css",
-    "main.js": "/PokemonSoundboard/static/js/main.0a552c75.chunk.js",
-    "main.js.map": "/PokemonSoundboard/static/js/main.0a552c75.chunk.js.map",
+    "main.js": "/PokemonSoundboard/static/js/main.e08b9dc1.chunk.js",
+    "main.js.map": "/PokemonSoundboard/static/js/main.e08b9dc1.chunk.js.map",
     "runtime-main.js": "/PokemonSoundboard/static/js/runtime-main.c2d58f2d.js",
     "runtime-main.js.map": "/PokemonSoundboard/static/js/runtime-main.c2d58f2d.js.map",
-    "static/js/2.917cf23b.chunk.js": "/PokemonSoundboard/static/js/2.917cf23b.chunk.js",
-    "static/js/2.917cf23b.chunk.js.map": "/PokemonSoundboard/static/js/2.917cf23b.chunk.js.map",
+    "static/js/2.cd523f4e.chunk.js": "/PokemonSoundboard/static/js/2.cd523f4e.chunk.js",
+    "static/js/2.cd523f4e.chunk.js.map": "/PokemonSoundboard/static/js/2.cd523f4e.chunk.js.map",
     "index.html": "/PokemonSoundboard/index.html",
-    "precache-manifest.0a4a5da89a205e4def09619d639abc81.js": "/PokemonSoundboard/precache-manifest.0a4a5da89a205e4def09619d639abc81.js",
+    "precache-manifest.acb745fbda33232cfba67102724420f6.js": "/PokemonSoundboard/precache-manifest.acb745fbda33232cfba67102724420f6.js",
     "service-worker.js": "/PokemonSoundboard/service-worker.js",
     "static/css/main.9bd6e4c1.chunk.css.map": "/PokemonSoundboard/static/css/main.9bd6e4c1.chunk.css.map",
     "static/media/A light tap decided the outcome.wav": "/PokemonSoundboard/static/media/A light tap decided the outcome.7b7cdc86.wav",
@@ -43,6 +43,7 @@
     "static/media/Oh, it's down.wav": "/PokemonSoundboard/static/media/Oh, it's down.584a74f4.wav",
     "static/media/Oh, what a lovely kiss.wav": "/PokemonSoundboard/static/media/Oh, what a lovely kiss.2c3748c4.wav",
     "static/media/Oooh, it was casually cast aside.wav": "/PokemonSoundboard/static/media/Oooh, it was casually cast aside.71373deb.wav",
+    "static/media/Oooh, this one looks formidable.wav": "/PokemonSoundboard/static/media/Oooh, this one looks formidable.14f39057.wav",
     "static/media/POW That's an effective hit.wav": "/PokemonSoundboard/static/media/POW That's an effective hit.abeec44b.wav",
     "static/media/Right from the start the power difference is obvious.wav": "/PokemonSoundboard/static/media/Right from the start the power difference is obvious.f0ceae90.wav",
     "static/media/Soft-boiled, over easy.wav": "/PokemonSoundboard/static/media/Soft-boiled, over easy.8376f601.wav",
@@ -57,6 +58,7 @@
     "static/media/The crowd's excitement is building over this hot battle.wav": "/PokemonSoundboard/static/media/The crowd's excitement is building over this hot battle.a577b544.wav",
     "static/media/The intense battle continues.wav": "/PokemonSoundboard/static/media/The intense battle continues.7ba2e771.wav",
     "static/media/The move failed.wav": "/PokemonSoundboard/static/media/The move failed.c1c496c1.wav",
+    "static/media/The poison will slowly sap the strength.wav": "/PokemonSoundboard/static/media/The poison will slowly sap the strength.b4a7e990.wav",
     "static/media/The trainer hasn't issued an order.wav": "/PokemonSoundboard/static/media/The trainer hasn't issued an order.9f57a140.wav",
     "static/media/There're just trading warning blows now.wav": "/PokemonSoundboard/static/media/There're just trading warning blows now.40a9b8b9.wav",
     "static/media/There's a big difference in HP.wav": "/PokemonSoundboard/static/media/There's a big difference in HP.89e7d483.wav",
@@ -65,19 +67,21 @@
     "static/media/This has turned into a lopsided contest.wav": "/PokemonSoundboard/static/media/This has turned into a lopsided contest.6e2f80d9.wav",
     "static/media/This is a battle between obviously mis-matched Pokémon.wav": "/PokemonSoundboard/static/media/This is a battle between obviously mis-matched Pokémon.f9d81934.wav",
     "static/media/This is a wild one from the word \"go\".wav": "/PokemonSoundboard/static/media/This is a wild one from the word \"go\".9b38fa11.wav",
+    "static/media/This one's already taken serious damage.wav": "/PokemonSoundboard/static/media/This one's already taken serious damage.9ae7b5d2.wav",
     "static/media/Wahh, taken down with one hit.wav": "/PokemonSoundboard/static/media/Wahh, taken down with one hit.7af680ee.wav",
     "static/media/We might be in for a one-sided affair.wav": "/PokemonSoundboard/static/media/We might be in for a one-sided affair.981af203.wav",
     "static/media/What a furious battle.wav": "/PokemonSoundboard/static/media/What a furious battle.a7ff4728.wav",
     "static/media/What's the matter, trainer.wav": "/PokemonSoundboard/static/media/What's the matter, trainer.36a792e0.wav",
     "static/media/Will it erase the humiliation of its fallen comrade.wav": "/PokemonSoundboard/static/media/Will it erase the humiliation of its fallen comrade.522b43a2.wav",
+    "static/media/Will it live up to its expectations.wav": "/PokemonSoundboard/static/media/Will it live up to its expectations.989424e9.wav",
     "static/media/Wow, they're down, they're both down.wav": "/PokemonSoundboard/static/media/Wow, they're down, they're both down.8fa43892.wav",
     "static/media/Yeah, it's a hit.wav": "/PokemonSoundboard/static/media/Yeah, it's a hit.2b008aac.wav",
     "static/media/logo.svg": "/PokemonSoundboard/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c2d58f2d.js",
-    "static/js/2.917cf23b.chunk.js",
+    "static/js/2.cd523f4e.chunk.js",
     "static/css/main.9bd6e4c1.chunk.css",
-    "static/js/main.0a552c75.chunk.js"
+    "static/js/main.e08b9dc1.chunk.js"
   ]
 }
