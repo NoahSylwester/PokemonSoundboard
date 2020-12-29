@@ -1,6 +1,6 @@
 .sound {
     position: relative;
-    background: rgb(94, 255, 234);
+    background: rgb(25, 0, 255);
     margin: 1px;
     display: flex;
     flex-direction: row;
@@ -8,14 +8,13 @@
     transition: 0.2s;
 }
 .sound:hover {
-    background: rgb(255, 161, 20);
+    background: rgb(255, 0, 0);
     color: white;
     border-radius: 8px;
     cursor: pointer;
 }
 h3 {
     font-size: 0.5em;
-    cursor: default;
     padding: 0px;
 }
 button {
