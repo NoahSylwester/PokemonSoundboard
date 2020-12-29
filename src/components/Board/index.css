@@ -1,0 +1,22 @@
+.Board {
+    padding: 15px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    cursor: default;
+    background: rgb(94, 255, 234);
+    width: 50%;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.soundContainer {
+    display: flex;
+    flex-direction: row;
+}
+.soundContainer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
