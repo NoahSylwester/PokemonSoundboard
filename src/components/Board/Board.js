@@ -123,10 +123,6 @@ class Board extends Component {
                     <div>{Object.keys(sounds).slice(0,Object.keys(sounds).length/3).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
                     <div>{Object.keys(sounds).slice(Object.keys(sounds).length/3,(2*Object.keys(sounds).length)/3).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
                     <div>{Object.keys(sounds).slice(2*Object.keys(sounds).length/3,Object.keys(sounds).length).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
-                    {/* <div>{Object.keys(sounds).slice(0,4).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
-                    <div>{Object.keys(sounds).slice(4,8).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
-                    <div>{Object.keys(sounds).slice(8,12).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
-                    <div>{Object.keys(sounds).slice(12,16).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div> */}
                 </div>
             </div>
         )
