@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05c8ef296f22d3f46439c4d9197c2b67",
+    "revision": "2dd42c38f62f55a62b3a2a4b3adadaa1",
     "url": "/PokemonSoundboard/index.html"
   },
   {
-    "revision": "cfd451d168956b6978ec",
+    "revision": "e11cfa4ae58075d34dc8",
     "url": "/PokemonSoundboard/static/css/main.9bd6e4c1.chunk.css"
   },
   {
-    "revision": "3f636ea5837918c76beb",
-    "url": "/PokemonSoundboard/static/js/2.168b0525.chunk.js"
+    "revision": "699e97d09dc46d169c26",
+    "url": "/PokemonSoundboard/static/js/2.917cf23b.chunk.js"
   },
   {
-    "revision": "cfd451d168956b6978ec",
-    "url": "/PokemonSoundboard/static/js/main.e9167508.chunk.js"
+    "revision": "e11cfa4ae58075d34dc8",
+    "url": "/PokemonSoundboard/static/js/main.1db6a33a.chunk.js"
   },
   {
     "revision": "32cda17533d344f805bd",
     "url": "/PokemonSoundboard/static/js/runtime-main.c2d58f2d.js"
+  },
+  {
+    "revision": "7b7cdc865f0c3d298dc6a4e316512f49",
+    "url": "/PokemonSoundboard/static/media/A light tap decided the outcome.7b7cdc86.wav"
   },
   {
     "revision": "cf8105ebee1fbc09fdb20629fb776a3b",
@@ -40,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PokemonSoundboard/static/media/Bone club it down.72a2dc6f.wav"
   },
   {
+    "revision": "55601499a16c0eca3d2ef05f4e5ce122",
+    "url": "/PokemonSoundboard/static/media/Both Pokémon appear weak.55601499.wav"
+  },
+  {
     "revision": "0478170d6714e2888bd7c8017ebc8f6a",
     "url": "/PokemonSoundboard/static/media/Both Pokémon appear equally fit.0478170d.wav"
   },
@@ -50,6 +58,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d805ae29c86005c6c655bd51617591b3",
     "url": "/PokemonSoundboard/static/media/Dig this.d805ae29.wav"
+  },
+  {
+    "revision": "11a7e30b9ead937956e194255c99dc2f",
+    "url": "/PokemonSoundboard/static/media/Down, the level disadvantage is obvious.11a7e30b.wav"
+  },
+  {
+    "revision": "9aaee70f825ee38d43e37a2ed6391578",
+    "url": "/PokemonSoundboard/static/media/Drilled that weak spot.9aaee70f.wav"
   },
   {
     "revision": "938156a5f855854f7d1ef7ec85659ad3",
@@ -72,12 +88,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PokemonSoundboard/static/media/Is there nothing you can do now.c435e5bd.wav"
   },
   {
+    "revision": "e7c7e40fd661344be8a212a65906b4d3",
+    "url": "/PokemonSoundboard/static/media/It didnt work.e7c7e40f.wav"
+  },
+  {
     "revision": "8ef3780b311a4ea56b71123d507d9c35",
     "url": "/PokemonSoundboard/static/media/It opted to slowly damage the opponent.8ef3780b.wav"
   },
   {
     "revision": "0130fb57c4ba474f84b17edb94b00d83",
     "url": "/PokemonSoundboard/static/media/It suffered a burn.0130fb57.wav"
+  },
+  {
+    "revision": "94a4e88784f47e0d708f3b9ed45db5a7",
+    "url": "/PokemonSoundboard/static/media/It took the abuse easily.94a4e887.wav"
   },
   {
     "revision": "2ccebb94af50586c4c66665c01369c4b",
@@ -100,8 +124,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PokemonSoundboard/static/media/Its rage is unleashed.1e090e94.wav"
   },
   {
+    "revision": "a7b2bfff19f2681fb00886fc70875dd3",
+    "url": "/PokemonSoundboard/static/media/No, this Pokémon looks wrong.a7b2bfff.wav"
+  },
+  {
     "revision": "263b4a4b4ffb371b908c5e4b2f8eb497",
     "url": "/PokemonSoundboard/static/media/Oh, a horrible screech.263b4a4b.wav"
+  },
+  {
+    "revision": "e5851a671a8d6d3ce4cb1201c5d6af66",
+    "url": "/PokemonSoundboard/static/media/Oh, another failure.e5851a67.wav"
   },
   {
     "revision": "584a74f45a6784343fecc79efcaf55c8",
@@ -110,6 +142,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2c3748c40bde4dcaf2cd0d02efbdbd04",
     "url": "/PokemonSoundboard/static/media/Oh, what a lovely kiss.2c3748c4.wav"
+  },
+  {
+    "revision": "71373deb31a6c0566b4a9c1d27dbe189",
+    "url": "/PokemonSoundboard/static/media/Oooh, it was casually cast aside.71373deb.wav"
   },
   {
     "revision": "abeec44bc8cb1f1cb8a4a9c7cde8498b",
@@ -128,6 +164,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PokemonSoundboard/static/media/Struggle.4946c177.wav"
   },
   {
+    "revision": "3800416fa0e10684894a9c3727b67b85",
+    "url": "/PokemonSoundboard/static/media/Taken down on the word \"go\".3800416f.wav"
+  },
+  {
     "revision": "6e90cf8a72b50e8a98adeabf66066e63",
     "url": "/PokemonSoundboard/static/media/That was brutal.6e90cf8a.wav"
   },
@@ -136,12 +176,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PokemonSoundboard/static/media/That was weak.babc6650.wav"
   },
   {
+    "revision": "04fa1f3d14fdfe78d86ab7cc5e205e5b",
+    "url": "/PokemonSoundboard/static/media/That's a good hit.04fa1f3d.wav"
+  },
+  {
     "revision": "b19645e3adf338ce396a891bead4919a",
     "url": "/PokemonSoundboard/static/media/The attack is still continuing.b19645e3.wav"
   },
   {
     "revision": "482077eb353275af610412a6d4839f48",
     "url": "/PokemonSoundboard/static/media/The attack wasn't effective.482077eb.wav"
+  },
+  {
+    "revision": "eb483bb60bc09bcabe4a0f45200e2a67",
+    "url": "/PokemonSoundboard/static/media/The combatants face each other.eb483bb6.wav"
   },
   {
     "revision": "a577b544a20e7228d03ebd86ca606ce6",
@@ -188,6 +236,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PokemonSoundboard/static/media/This is a wild one from the word \"go\".9b38fa11.wav"
   },
   {
+    "revision": "7af680eef8176ea0d5006a2cc9344c34",
+    "url": "/PokemonSoundboard/static/media/Wahh, taken down with one hit.7af680ee.wav"
+  },
+  {
+    "revision": "981af20313e6243d20a1824fd9b7cdad",
+    "url": "/PokemonSoundboard/static/media/We might be in for a one-sided affair.981af203.wav"
+  },
+  {
     "revision": "a7ff47283a574024c58d47ebc14f5a45",
     "url": "/PokemonSoundboard/static/media/What a furious battle.a7ff4728.wav"
   },
@@ -198,6 +254,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "522b43a26d56a5cd010a98107cde8900",
     "url": "/PokemonSoundboard/static/media/Will it erase the humiliation of its fallen comrade.522b43a2.wav"
+  },
+  {
+    "revision": "8fa43892810364707c87a62aa8d0d4a6",
+    "url": "/PokemonSoundboard/static/media/Wow, they're down, they're both down.8fa43892.wav"
   },
   {
     "revision": "2b008aac3b5551e0730cffe477f3d116",
