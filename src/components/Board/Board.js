@@ -139,16 +139,18 @@ class Board extends Component {
             soundIds: [],
         };
     }
+
+    soundsSorted = Object.keys(sounds).sort()
+
     render() {
         return (
             <div className="Board">
                 <h1>Pokémon Stadium Announcer</h1>
                 <div className="soundContainer">
-                    {/* <div>{Object.keys(sounds).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div> */}
-                    <div>{Object.keys(sounds).slice(0,Object.keys(sounds).length/4).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
-                    <div>{Object.keys(sounds).slice(Object.keys(sounds).length/4,Object.keys(sounds).length/2).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
-                    <div>{Object.keys(sounds).slice(Object.keys(sounds).length/2,Object.keys(sounds).length * (3/4)).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
-                    <div>{Object.keys(sounds).slice(Object.keys(sounds).length * (3/4),Object.keys(sounds).length).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
+                    <div>{this.soundsSorted.slice(0,this.soundsSorted.length/4).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
+                    <div>{this.soundsSorted.slice(this.soundsSorted.length/4,this.soundsSorted.length/2).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
+                    <div>{this.soundsSorted.slice(this.soundsSorted.length/2,this.soundsSorted.length * (3/4)).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
+                    <div>{this.soundsSorted.slice(this.soundsSorted.length * (3/4),this.soundsSorted.length).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
                 </div>
             </div>
         )
