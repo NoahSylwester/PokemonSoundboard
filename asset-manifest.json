@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PokemonSoundboard/static/css/main.9bd6e4c1.chunk.css",
-    "main.js": "/PokemonSoundboard/static/js/main.e08b9dc1.chunk.js",
-    "main.js.map": "/PokemonSoundboard/static/js/main.e08b9dc1.chunk.js.map",
+    "main.css": "/PokemonSoundboard/static/css/main.63a79ad0.chunk.css",
+    "main.js": "/PokemonSoundboard/static/js/main.0a4ab717.chunk.js",
+    "main.js.map": "/PokemonSoundboard/static/js/main.0a4ab717.chunk.js.map",
     "runtime-main.js": "/PokemonSoundboard/static/js/runtime-main.c2d58f2d.js",
     "runtime-main.js.map": "/PokemonSoundboard/static/js/runtime-main.c2d58f2d.js.map",
     "static/js/2.cd523f4e.chunk.js": "/PokemonSoundboard/static/js/2.cd523f4e.chunk.js",
     "static/js/2.cd523f4e.chunk.js.map": "/PokemonSoundboard/static/js/2.cd523f4e.chunk.js.map",
     "index.html": "/PokemonSoundboard/index.html",
-    "precache-manifest.acb745fbda33232cfba67102724420f6.js": "/PokemonSoundboard/precache-manifest.acb745fbda33232cfba67102724420f6.js",
+    "precache-manifest.9e67380766305e38f103038bbed4d8d2.js": "/PokemonSoundboard/precache-manifest.9e67380766305e38f103038bbed4d8d2.js",
     "service-worker.js": "/PokemonSoundboard/service-worker.js",
-    "static/css/main.9bd6e4c1.chunk.css.map": "/PokemonSoundboard/static/css/main.9bd6e4c1.chunk.css.map",
+    "static/css/main.63a79ad0.chunk.css.map": "/PokemonSoundboard/static/css/main.63a79ad0.chunk.css.map",
     "static/media/A light tap decided the outcome.wav": "/PokemonSoundboard/static/media/A light tap decided the outcome.7b7cdc86.wav",
     "static/media/A meaningless splash.wav": "/PokemonSoundboard/static/media/A meaningless splash.cf8105eb.wav",
     "static/media/Ahhh.wav": "/PokemonSoundboard/static/media/Ahhh.31571132.wav",
@@ -81,7 +81,7 @@
   "entrypoints": [
     "static/js/runtime-main.c2d58f2d.js",
     "static/js/2.cd523f4e.chunk.js",
-    "static/css/main.9bd6e4c1.chunk.css",
-    "static/js/main.e08b9dc1.chunk.js"
+    "static/css/main.63a79ad0.chunk.css",
+    "static/js/main.0a4ab717.chunk.js"
   ]
 }

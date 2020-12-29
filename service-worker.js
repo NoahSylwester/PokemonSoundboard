@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PokemonSoundboard/precache-manifest.acb745fbda33232cfba67102724420f6.js"
+  "/PokemonSoundboard/precache-manifest.9e67380766305e38f103038bbed4d8d2.js"
 );
 
 self.addEventListener('message', (event) => {
