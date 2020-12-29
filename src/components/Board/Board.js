@@ -64,6 +64,10 @@ import fff from '../../sounds/Oh, another failure.wav'
 import ggg from '../../sounds/A light tap decided the outcome.wav'
 import hhh from '../../sounds/Oooh, it was casually cast aside.wav'
 import iii from '../../sounds/The combatants face each other.wav'
+import jjj from '../../sounds/Will it live up to its expectations.wav'
+import kkk from '../../sounds/The poison will slowly sap the strength.wav'
+import lll from '../../sounds/This one\'s already taken serious damage.wav'
+import mmm from '../../sounds/Oooh, this one looks formidable.wav'
 
 const sounds = {
     ['A meaningless splash']: a,
@@ -71,12 +75,12 @@ const sounds = {
     ['An exchange of heavy hits started the fight']: c,
     ['An intimidating glare']: d,
     ['Bone club it down']: e,
-    ['Both Pokémon appear equally fight']: f,
+    ['Both Pokémon appear equally fit']: f,
     ['Both Pokémon are exhausted']: g,
     ['Dig this']: h,
     ['Fireworks are flying in this battle']: i,
     ['Give it a licky']: j,
-    ['Gone, it\'s a one-hit wonder.wav']: k,
+    ['Gone, it\'s a one-hit wonder']: k,
     ['Here comes a barrage']: l,
     ['Is there nothing you can do now?']: m,
     ['It opted to slowly damage the opponent']: n,
@@ -127,9 +131,11 @@ const sounds = {
     ['A light tap decided the outcome']: ggg,
     ['Oooh, it was casually cast aside']: hhh,
     ['The combatants face each other']: iii,
- };  
-
- console.log()
+    ['Will it live up to its expectations']: jjj,
+    ['The poison will slowly sap the strength']: kkk,
+    ['This one\'s already taken serious damage']: lll,
+    ['Oooh, this one looks formidable']: mmm,
+ }; 
 
 
 class Board extends Component {

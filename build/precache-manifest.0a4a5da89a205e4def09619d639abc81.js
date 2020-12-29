@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2dd42c38f62f55a62b3a2a4b3adadaa1",
+    "revision": "5ccf3f248e2cd5c6840eee967ae15096",
     "url": "/PokemonSoundboard/index.html"
   },
   {
-    "revision": "e11cfa4ae58075d34dc8",
+    "revision": "d9da1396f314ebf8720d",
     "url": "/PokemonSoundboard/static/css/main.9bd6e4c1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PokemonSoundboard/static/js/2.917cf23b.chunk.js"
   },
   {
-    "revision": "e11cfa4ae58075d34dc8",
-    "url": "/PokemonSoundboard/static/js/main.1db6a33a.chunk.js"
+    "revision": "d9da1396f314ebf8720d",
+    "url": "/PokemonSoundboard/static/js/main.0a552c75.chunk.js"
   },
   {
     "revision": "32cda17533d344f805bd",
