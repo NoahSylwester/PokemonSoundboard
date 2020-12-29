@@ -49,11 +49,21 @@ import qq from '../../sounds/What a furious battle.wav'
 import rr from '../../sounds/What\'s the matter, trainer.wav'
 import ss from '../../sounds/Will it erase the humiliation of its fallen comrade.wav'
 import tt from '../../sounds/Yeah, it\'s a hit.wav'
-// import uu from '../../sounds/This is a battle between obviously mis-matched Pokémon.wav'
-// import vv from '../../sounds/This is a battle between obviously mis-matched Pokémon.wav'
-// import ww from '../../sounds/This is a battle between obviously mis-matched Pokémon.wav'
-// import xx from '../../sounds/This is a battle between obviously mis-matched Pokémon.wav'
-// import yy from '../../sounds/This is a battle between obviously mis-matched Pokémon.wav'
+import uu from '../../sounds/Drilled that weak spot.wav'
+import vv from '../../sounds/Taken down on the word "go".wav'
+import ww from '../../sounds/Both Pokémon appear weak.wav'
+import xx from '../../sounds/Wahh, taken down with one hit.wav'
+import yy from '../../sounds/It took the abuse easily.wav'
+import zz from '../../sounds/No, this Pokémon looks wrong.wav'
+import aaa from '../../sounds/That\'s a good hit.wav'
+import bbb from '../../sounds/It didnt work.wav'
+import ccc from '../../sounds/We might be in for a one-sided affair.wav'
+import ddd from '../../sounds/Wow, they\'re down, they\'re both down.wav'
+import eee from '../../sounds/Down, the level disadvantage is obvious.wav'
+import fff from '../../sounds/Oh, another failure.wav'
+import ggg from '../../sounds/A light tap decided the outcome.wav'
+import hhh from '../../sounds/Oooh, it was casually cast aside.wav'
+import iii from '../../sounds/The combatants face each other.wav'
 
 const sounds = {
     ['A meaningless splash']: a,
@@ -102,6 +112,21 @@ const sounds = {
     ['What\'s the matter, trainer']: rr,
     ['Will it erase the humiliation of its fallen comrade']: ss,
     ['Yeah, it\'s a hit']: tt,
+    ['Drilled that weak spot']: uu,
+    ['Taken down on the word "go"']: vv,
+    ['Both Pokémon appear weak']: ww,
+    ['Wahh, taken down with one hit']: xx,
+    ['It took the abuse easily']: yy,
+    ['No, this Pokémon looks wrong']: zz,
+    ['That\'s a good hit']: aaa,
+    ['It didnt work']: bbb,
+    ['We might be in for a one-sided affair']: ccc,
+    ['Wow, they\'re down, they\'re both down']: ddd,
+    ['Down, the level disadvantage is obvious']: eee,
+    ['Oh, another failure']: fff,
+    ['A light tap decided the outcome']: ggg,
+    ['Oooh, it was casually cast aside']: hhh,
+    ['The combatants face each other']: iii,
  };  
 
  console.log()
@@ -120,9 +145,10 @@ class Board extends Component {
                 <h1>Pokémon Stadium Announcer</h1>
                 <div className="soundContainer">
                     {/* <div>{Object.keys(sounds).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div> */}
-                    <div>{Object.keys(sounds).slice(0,Object.keys(sounds).length/3).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
-                    <div>{Object.keys(sounds).slice(Object.keys(sounds).length/3,(2*Object.keys(sounds).length)/3).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
-                    <div>{Object.keys(sounds).slice(2*Object.keys(sounds).length/3,Object.keys(sounds).length).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
+                    <div>{Object.keys(sounds).slice(0,Object.keys(sounds).length/4).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
+                    <div>{Object.keys(sounds).slice(Object.keys(sounds).length/4,Object.keys(sounds).length/2).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
+                    <div>{Object.keys(sounds).slice(Object.keys(sounds).length/2,Object.keys(sounds).length * (3/4)).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
+                    <div>{Object.keys(sounds).slice(Object.keys(sounds).length * (3/4),Object.keys(sounds).length).map((key) => <Sound name={[key]} sound={new Howl({ src: sounds[key]})} />)}</div>
                 </div>
             </div>
         )
